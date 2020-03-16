@@ -4,6 +4,8 @@ word = word.upper()
 
 
 def is_word_a_palindrome(word):
+    wor =word.split(' ')
+    word = ''.join(wor)
     if word == word[::-1]:
         return 'является палидромом'
     else:
